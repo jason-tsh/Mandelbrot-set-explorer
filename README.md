@@ -1,5 +1,6 @@
-# Mandelbrot-set-explorer
+# Mandelbrot set explorer
 A GUI application that generates mandelbrot set for exploration.
+Written in Java (JavaFx with scene builder)
 
 ### Current functionalities:
 - Basic display in black and white 
