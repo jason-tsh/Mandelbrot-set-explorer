@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+<AnchorPane prefWidth="1000.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="delegate.Delegate">
+    <MenuBar prefWidth="1000.0">
+        <Menu mnemonicParsing="false" text="File">
+            <MenuItem fx:id="save" mnemonicParsing="false" text="Save"/>
+            <MenuItem fx:id="load" mnemonicParsing="false" text="Load"/>
+        </Menu>
+    </MenuBar>
+    <ToolBar layoutY="26.0" prefWidth="1000.0">
+        <RadioButton fx:id="pan" mnemonicParsing="false" text="Pan (not zoom)"/>
+        <RadioButton fx:id="showZoom" mnemonicParsing="false" prefHeight="18.0" text="Show Magnification"/>
+        <Button fx:id="reset" mnemonicParsing="false" text="Reset"/>
+        <Button fx:id="undo" mnemonicParsing="false" text="Undo"/>
+        <Button fx:id="redo" mnemonicParsing="false" text="Redo"/>
+        <Button fx:id="colorChoice" mnemonicParsing="false" text="Change Color"/>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Max Iterations"/>
+        <TextField fx:id="maxIterations" prefHeight="26.0" prefWidth="150.0"/>
+        <Button fx:id="changeIterations" mnemonicParsing="false" text="Change max. iterations"/>
+    </ToolBar>
+    <Canvas fx:id="canvas" height="1000.0" layoutY="62.0" width="1000.0"/>
+    <Canvas fx:id="selection" height="1000.0" layoutY="62.0" width="1000.0"/>
+</AnchorPane>
