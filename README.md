@@ -12,4 +12,4 @@ Written in Java (JavaFx with scene builder)
 - Save & Load 
 - Primitive cross-platform support (Linux, Windows)
 
-### Full documentation: [link](https://universityofstandrews907-my.sharepoint.com/:w:/g/personal/sht2_st-andrews_ac_uk/EfpCGXFHqZ1HuazHQKtrwoYBquSKCb5qkGZVHB0DSF5w5Q?e=7tKevx)
+### Full documentation: [link](https://universityofstandrews907-my.sharepoint.com/:w:/g/personal/sht2_st-andrews_ac_uk/EfpCGXFHqZ1HuazHQKtrwoYBquSKCb5qkGZVHB0DSF5w5Q?e=PZgFvD)
